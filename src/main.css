@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
+
+*{
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.mt-1{
+    margin-top: 10px;
+}
+.mt-2{
+    margin-top: 20px;
+}
+.mt-3{
+    margin-top: 30px;
+}
+.mt-4{
+    margin-top: 40px;
+}
+.navbar{
+    height: 100px;
+    background-color: #9164cd;
+    display: flex;
+}
+.navbar-logo{
+    width: 300px;
+}
+.header{
+    background-color: #f9f8fc;
+    width: 90em;
+    height: 10em;
+    color: #444444;
+  
+    padding: 50px;
+    transition: 0.6s;
+}
+
+.header h1{
+    font-size: 62px;
+    font-weight: lighter;
+}
+.tabs{
+    overflow: hidden;
+    border-bottom: 1px solid #444444;
+    
+}
+.tabs button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.4s;
+    font-size: 16px;
+}
+.tabs button:hover{
+    color:  #da9cfa;
+}
+.tabs button:focus{
+    color:  #9164cd;
+}
+.tab-content {
+    opacity: 0;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.active{
+    opacity: 100;
+    border: none;   
+    transition: 0.6s;
+}
+.hidden{
+    display: none;
+}
+
+.form{
+    padding: 50px;
+    width: 50em;
+    height: 36em;
+    background-color: #f9f8fc;
+    text-align: center;
+}
+
+.form-input{
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #9164cd !important;
+}
+
+.btn-form{
+    width: 30%;
+    padding: 10px;
+    border: 2px solid #9164cd;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: 0.6s;
+}
+.btn-form:hover{
+    background-color: #9164cd;
+    color: #ffffff;
+}
+.form-input-error{
+    border-bottom: 1px solid #ff0000 !important;
+    color: red;
+}
+.value{
+    font-size: 32px;
+}
